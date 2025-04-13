@@ -14,13 +14,17 @@ function Products({ products, filterFlag }) {
       )}
 
       <div className="grid-container">
-        {products.map((product) => (
+          {Array.isArray(products) ? (
+        products.map((product) => (
           <div className="grid-item" key={product.id}>
             <img src={product.image} alt={product.title} />
             <h3>{product.title}</h3>
             <p>${product.price}</p>
           </div>
-        ))}
+        ))
+      ) : (
+        <p>Loading products...</p>
+      )}
       </div>
     </div>
   );
