@@ -51,3 +51,7 @@
 .pay-links img:hover {
   transform: scale(1.1);
 }
+
+.pay-links span {
+    max-width: 80%;
+}

@@ -45,7 +45,7 @@ function Footer() {
             </span>
           </div>
           <div className='pay-links'>
-          <h3>metta muse ACCEPTS</h3>
+            <h3>metta muse ACCEPTS</h3>
             <span>
               <img src={Gpay} alt='Gpay icon'></img>
               <img src={MasterCard} alt='MasterCard icon'></img>
