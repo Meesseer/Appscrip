@@ -53,5 +53,22 @@
 }
 
 .pay-links span {
-    max-width: 80%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  margin-top: 0.5em;
+  justify-content: flex-start;
+}
+
+@media (max-width: 600px) {
+    .followpay-container {
+        align-items: center;
+        text-align: center;
+    }
+
+    .pay-links span,
+    .follow span {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
 }

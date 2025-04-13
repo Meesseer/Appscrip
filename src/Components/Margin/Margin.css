@@ -9,7 +9,6 @@
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    min-width: 110%;
 }
 
 .image-row img{
